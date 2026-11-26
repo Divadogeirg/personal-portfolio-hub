@@ -1,0 +1,4 @@
+flask
+requests
+python-dotenv
+# flask runs the webserver, requests lets python tal to external web API's, and python-dotenv reads secret keys from local .env file later

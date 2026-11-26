@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+# Keeps compiled Python cache files (__pycache__), virtual environments, and your future .env secret keys out of your public GitHub repository.
