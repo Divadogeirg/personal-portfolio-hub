@@ -28,12 +28,12 @@ def home():
             "summary": "Combinational and sequential circuits with simulation testbenches.",
             "repo_url": "https://github.com/divadogeirg",
         },
-        # {
-        #     "title": "Portfolio Website",
-        #     "stack": "Flask, HTML, CSS",
-        #     "summary": "Personal portfolio website built with Flask and deployed on Render.",
-        #     "repo_url": "https://github.com/divadogeirg/portfolio-website"
-        # }
+        {
+            "title": "Portfolio Website",
+            "stack": "Flask, HTML, CSS",
+            "summary": "Personal portfolio website built with Flask and deployed on Render.",
+            "repo_url": "https://github.com/divadogeirg/portfolio-website"
+        }
     ]
 
     return render_template("index.html", profile=profile_data, projects=projects)
